@@ -1,0 +1,43 @@
+:root{
+  --blue:#3008ee;
+  --orange:#ff7730;
+  --primary: var(--orange)
+}
+body{
+  background-color: var(--primary);
+}
+.warm{
+  --primary: var(--orange)
+  
+}
+.cool{
+  --primary:var(--blue)
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  margin: 0.6rem 0;
+  justify-content: space-around;
+  align-content: center;
+  position: relative;
+}
+
+.card { 
+  margin: 5rem 0;
+  height: 50vh;
+  width: 27vw;
+  background-color: rgba(65, 65, 150, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: 1s;
+  position: relative;
+  height: 400px;
+  transition-duration: 0.5s;
+  overflow: visible;
+}
