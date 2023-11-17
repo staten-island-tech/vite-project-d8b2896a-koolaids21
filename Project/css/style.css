@@ -1,17 +1,18 @@
-:root{
+:root {
+
   --blue:#3008ee;
   --orange:#ff7730;
-  --primary: var(--orange)
-}
-body{
-  background-color: var(--primary);
-}
-.warm{
-  --primary: var(--orange)
-  
-}
-.cool{
-  --primary:var(--blue)
+  --primary: var(--orange);
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
 }
 
@@ -40,4 +41,12 @@ body{
   height: 400px;
   transition-duration: 0.5s;
   overflow: visible;
+}
+.light{
+  --primary: var(--orange)
+  
+}
+.dark{
+  --primary: var(--blue)
+
 }
