@@ -5,7 +5,7 @@ const DOMSelectors = {
 }
 
 function thing (){
-  skins.foreach((x) => {const
+  skins.forEach((x) => {const
     otherthing = `<div class='card'>
   <p>name ${x.name}</p>
   <p>gun ${x.gun}</p>

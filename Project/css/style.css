@@ -16,6 +16,7 @@
 
 }
 
+
 .card { 
   margin: 5rem 0;
   height: 50vh;
@@ -29,7 +30,6 @@
   position: relative;
   height: 400px;
   transition-duration: 0.5s;
-  overflow: visible;
 }
 .light{
   --primary: var(--orange)
