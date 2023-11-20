@@ -94,5 +94,6 @@ let skins = [
     },
 ];
 
+const vandal = skins.filter(("Vandal") => skins.gun === ("Vandal").forEach((_gun)=> console.log(_gun)));
     
 export{skins}
