@@ -1,5 +1,5 @@
-import './css/style.css'
-import {skins} from '../js/skins.js';
+import '../css/style.css'
+import {skins} from '../js/skins'
 const DOMSelectors = {
   apps: document.getElementById("apps")
 }
@@ -19,6 +19,6 @@ function thing (){
   )
   
 })
-}
+};
 
 thing()

@@ -95,3 +95,4 @@ let skins = [
 ];
 
     
+export{skins}
