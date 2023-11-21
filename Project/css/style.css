@@ -17,7 +17,7 @@
 }
 
 
-.card { 
+.card {
   margin: 5rem 0;
   height: 50vh;
   width: 27vw;
@@ -30,6 +30,8 @@
   position: relative;
   height: 400px;
   transition-duration: 0.5s;
+  overflow: visible;
+  flex-wrap: wrap;
 }
 .light{
   --primary: var(--orange)
