@@ -20,5 +20,17 @@ function thing (){
   
 })
 };
-
 thing()
+
+document.querySelector(".btn").addEventListener("click", function(){
+  if (document.body.classlist.contains("dark")){
+      document.body.classList.remove("dark");
+      document.body.classlist.add("light");
+  }
+  else {
+      document.body.classlist.add("light");
+      document.body.classlist.remove("dark");
+  }
+});
+
+
