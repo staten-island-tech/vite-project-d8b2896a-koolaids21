@@ -18,11 +18,12 @@ function thing (){
 
   )
   
+  
 })
 };
 thing()
 
-document.querySelector(".btn").addEventListener("click", function(){
+document.querySelector(".theme").addEventListener("click", function(){
   if (document.body.classlist.contains("dark")){
       document.body.classList.remove("dark");
       document.body.classlist.add("light");
@@ -34,3 +35,10 @@ document.querySelector(".btn").addEventListener("click", function(){
 });
 
 
+// function filters (){
+//   let buttons = document.querySelectorAll("btn")
+//   buttons.forEach((btn) => btn.addEventListener("click", function(){
+//     let category = btn.textContent.toLowerCase()
+//     let newArr = items.filter((x))
+//   }
+// };

@@ -23,7 +23,7 @@
   margin: 5rem 0;
   height: 50vh;
   width: 27vw;
-  background-color: rgba(65, 65, 150, 0.6);
+  background-color: var(--primary);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,6 +40,7 @@
   
 }
 .dark{
-  --primary: var(--blue)
+  --primary: blue;
 
 }
+
