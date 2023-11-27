@@ -4,6 +4,12 @@
   --orange:#ff7730;
   --primary: var(--orange);
   --primary: var(--blue);
+  --black: #000;
+  --light-blue: #2998ff;
+  --dark-blue: #135cc5;
+  --light-red: #f87171;
+  --dark-red: #dc2626;
+  --gray: #252c30;
   
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -37,10 +43,11 @@
 }
 .light{
   --primary: var(--orange)
+
   
 }
 .dark{
-  --primary: blue;
+  --primary: var(--blue);
 
 }
 

@@ -2,96 +2,253 @@ let skins = [
     {
         name:"Reaver",
         gun:"Vandal",
-        animations:true,
+        animated:"yes",
     },
     {
         name:"Reaver",
         gun:"Guardian",
-        animations:true,
+        animated:"yes",
     },
     {
         name:"Reaver",
         gun:"Operator",
-        animations:true,
+        animated:"yes",
     },
     {
         name:"Reaver",
         gun:"Sherrif",
-        animations:true,
+        animated:"yes",
         
     },
     {
         name:"Prime",
         gun:"Vandal",
-        animations:true,
+        animated:"yes",
         
     },   
      {
         name:"Prime",
         gun:"Classic",
-        animations:true,
+        animated:"yes",
         
     },   
      {
         name:"Prime",
         gun:"Guardian",
-        animations:true,
+        animated:"yes",
         
     }, 
     {
         name:"Prime",
         gun:"Spectre",
-        animations:true,
+        animated:"yes",
         
     }, 
        {
         name:"Gaia",
         gun:"Vandal",
-        animations:true,
+        animated:"yes",
         
     },
     {
         name:"Gaia",
         gun:"Ghost",
-        animations:true,
+        animated:"yes",
         
     },
     {
         name:"Gaia",
         gun:"Marshal",
-        animations:true,
+        animated:"yes",
         
     },
     {
         name:"Gaia",
         gun:"Guardian",
-        animations:true,
+        animated:"yes",
         
     },  
      {
         name:"Sentinels of Light",
         gun:"Operator",
-        animations:true,
+        animated:"yes",
         
     },
     {
         name:"Sentinels of Light",
         gun:"Vandal",
-        animations:true,
+        animated:"yes",
         
     },
     {
         name:"Sentinels of Light",
         gun:"Sherrif",
-        animations:true,
+        animated:"yes",
         
     },
     {
         name:"Sentinels of Light",
         gun:"Ares",
-        animations:true,
+        animated:"yes",
         
     },
+    {
+        name:"Imperium",
+        gun:"Sherrif",
+        animated:"yes",
+        
+    },
+    {
+        name:"Imperium",
+        gun:"Judge",
+        animated:"yes",
+        
+    },
+    {
+        name:"Imperium",
+        gun:"Vandal",
+        animated:"yes",
+        
+    },
+    {
+        name:"Imperium",
+        gun:"Operator",
+        animated:"yes",
+        
+    },
+
+    {
+        name:"Neo-Frontier",
+        gun:"Marshal",
+        animated:"yes",
+        
+    },
+    {
+        name:"Neo-Frontier",
+        gun:"Sherrif",
+        animated:"yes",
+        
+    },
+    {
+        name:"Neo-Frontier",
+        gun:"Phantom",
+        animated:"yes",
+        
+    },
+    {
+        name:"Neo-Frontier",
+        gun:"Odin",
+        animated:"yes",
+        
+    },
+    {
+        name:"Magepunk",
+        gun:"Ghost",
+        animated:"yes",
+        image:"https://staticg.sportskeeda.com/editor/2021/11/e6067-16370796026659-1920.jpg?w=840"
+        
+        
+    },
+    {
+        name:"Magepunk",
+        gun:"Spectre",
+        animated:"yes",
+        image:"https://staticg.sportskeeda.com/editor/2021/11/e6067-16370796026659-1920.jpg?w=840"
+        
+        
+    },
+  
+    {
+        name:"Magepunk",
+        gun:"Bucky",
+        animated:"yes",
+        image:"https://staticg.sportskeeda.com/editor/2021/11/e6067-16370796026659-1920.jpg?w=840"
+        
+        
+    },
+  
+    {
+        name:"Magepunk",
+        gun:"Marshal",
+        animated:"yes",
+        image:"https://staticg.sportskeeda.com/editor/2021/11/e6067-16370796026659-1920.jpg?w=840"
+        
+    },
+
+    {
+        name:"Sarmad",
+        gun:"Frenzy",
+        animated:"no",
+        
+    },
+    {
+        name:"Sarmad",
+        gun:"Spectre",
+        animated:"no",
+        
+    },
+    {
+        name:"Sarmad",
+        gun:"Phantom",
+        animated:"no",
+        
+    },
+    {
+        name:"Sarmad",
+        gun:"Vandal",
+        animated:"no",
+        
+    },
+
+    {
+        name:"Titanmail",
+        gun:"Vandal",
+        animated:"no",
+        
+    },
+    {
+        name:"Titanmail",
+        gun:"Frenzy",
+        animated:"no",
+        
+    },
+    {
+        name:"Titanmail",
+        gun:"Bucky",
+        animated:"no",
+        
+    },
+    {
+        name:"Titanmail",
+        gun:"Ares",
+        animated:"no",
+        
+    },
+    {
+        name:"Endeavour",
+        gun:"Vandal",
+        animated:"no",
+        
+    },
+    {
+        name:"Endeavour",
+        gun:"Ares",
+        animated:"no",
+        
+    },
+    {
+        name:"Endeavour",
+        gun:"Operator",
+        animated:"no",
+        
+    },
+    {
+        name:"Endeavour",
+        gun:"Bulldog",
+        animated:"no",
+        
+    },
+  
 ];
 
     
