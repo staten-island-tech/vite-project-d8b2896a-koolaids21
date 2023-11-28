@@ -1,7 +1,8 @@
 import '../css/style.css'
 import { skins } from '../js/skins'
 const DOMSelectors = {
-  apps: document.getElementById("apps")
+  apps: document.getElementById("apps"),
+  vandals: document.getElementById("vandals"),
 }
 
 function thing() {
@@ -36,7 +37,7 @@ document.querySelector(".btnn").addEventListener("click", function () {
     <img id="${skin.name}" src="${skin.image}" class="image">
       </div>
       `
-      DOMSelectors.apps.insertAdjacentHTML(
+      DOMSelectors.vandals.insertAdjacentHTML(
         "beforeend",
         Aks
       )
