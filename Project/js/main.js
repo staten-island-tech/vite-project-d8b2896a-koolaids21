@@ -27,7 +27,7 @@ thing()
 
 document.querySelector(".btnn").addEventListener("click", function () {
   function filter() {
-    const vandals = skins.filter((skins) => skins.gun === "vandal");
+    const vandals = skins.filter((skins) => skins.gun === "Vandal");
     vandals.forEach((skin) => {
       const Aks = `<div class='card'>
         <p>name: ${skin.name}</p>
