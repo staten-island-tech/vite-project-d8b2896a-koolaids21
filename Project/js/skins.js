@@ -331,73 +331,73 @@ let skins = [
     {
         name:"Sovereign",
         gun:"Marshal",
-        animated:"no",
+        animated:"yes",
         
     },
     {
         name:"Sovereign",
         gun:"Stinger",
-        animated:"no",
+        animated:"yes",
         
     },
     {
         name:"Sovereign",
         gun:"Ghost",
-        animated:"no",
+        animated:"yes",
         
     },
     {
         name:"Sovereign",
         gun:"Guardian",
-        animated:"no",
+        animated:"yes",
         
     },
     {
         name:"Elderflame",
         gun:"Frenzy",
-        animated:"no",
+        animated:"yes",
         
     },
     {
         name:"Elderflame",
         gun:"Vandal",
-        animated:"no",
+        animated:"yes",
         
     },
     {
         name:"Elderflame",
         gun:"Operator",
-        animated:"no",
+        animated:"yes",
         
     },
     {
         name:"Elderflame",
         gun:"Judge",
-        animated:"no",
+        animated:"yes",
         
     },
     {
         name:"Oni",
         gun:"Shorty",
-        animated:"no",
+        animated:"yes",
         
     },
     {
         name:"Oni",
         gun:"Bucky",
-        animated:"no",
+        animated:"yes",
         
     },
     {
         name:"Oni",
         gun:"Phantom",
-        animated:"no",
+        animated:"yes",
         
     },
     {
         name:"Oni",
         gun:"Guardian",
-        animated:"no",
+        animated:"yes",
         
     },
     
