@@ -248,6 +248,161 @@ let skins = [
         animated:"no",
         
     },
+    {
+        name:"Luxe",
+        gun:"Spectre",
+        animated:"no",
+        
+    },
+    {
+        name:"Luxe",
+        gun:"Ghost",
+        animated:"no",
+        
+    },
+    
+    {
+        name:"Luxe",
+        gun:"Judge",
+        animated:"no",
+        
+    },
+    
+    {
+        name:"Luxe",
+        gun:"Vandal",
+        animated:"no",
+        
+    },
+    {
+        name:"Luxe",
+        gun:"Operator",
+        animated:"no",
+        
+    },
+    {
+        name:"Aristocrat",
+        gun:"Sherrif",
+        animated:"no",
+        
+    },
+    {
+        name:"Aristocrat",
+        gun:"Stinger",
+        animated:"no",
+        
+    },
+    {
+        name:"Aristocrat",
+        gun:"Vandal",
+        animated:"no",
+        
+    },
+    {
+        name:"Aristocrat",
+        gun:"Ares",
+        animated:"no",
+        
+    },
+    {
+        name:"Sakura",
+        gun:"Vandal",
+        animated:"no",
+        
+    },
+    {
+        name:"Sakura",
+        gun:"Sherrif",
+        animated:"no",
+        
+    },
+    {
+        name:"Sakura",
+        gun:"Stinger",
+        animated:"no",
+        
+    },
+    {
+        name:"Sakura",
+        gun:"Ares",
+        animated:"no",
+        
+    },
+    {
+        name:"Sovereign",
+        gun:"Marshal",
+        animated:"no",
+        
+    },
+    {
+        name:"Sovereign",
+        gun:"Stinger",
+        animated:"no",
+        
+    },
+    {
+        name:"Sovereign",
+        gun:"Ghost",
+        animated:"no",
+        
+    },
+    {
+        name:"Sovereign",
+        gun:"Guardian",
+        animated:"no",
+        
+    },
+    {
+        name:"Elderflame",
+        gun:"Frenzy",
+        animated:"no",
+        
+    },
+    {
+        name:"Elderflame",
+        gun:"Vandal",
+        animated:"no",
+        
+    },
+    {
+        name:"Elderflame",
+        gun:"Operator",
+        animated:"no",
+        
+    },
+    {
+        name:"Elderflame",
+        gun:"Judge",
+        animated:"no",
+        
+    },
+    {
+        name:"Oni",
+        gun:"Shorty",
+        animated:"no",
+        
+    },
+    {
+        name:"Oni",
+        gun:"Bucky",
+        animated:"no",
+        
+    },
+    {
+        name:"Oni",
+        gun:"Phantom",
+        animated:"no",
+        
+    },
+    {
+        name:"Oni",
+        gun:"Guardian",
+        animated:"no",
+        
+    },
+    
+    
+    
   
 ];
 

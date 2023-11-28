@@ -24,17 +24,17 @@ function thing (){
 };
 thing()
 
-document.querySelector(".btn").addEventListener("click", function (event) {
+document.querySelector(".btnn").addEventListener("click", function (thing) {
   function filter() {
     const vandals = skins.filter((skins) => skins.gun === "vandal");
-    vandals.forEach((skins) => {
+    vandals.forEach((skin) => {
     const Aks = `
         <div class='card'>
-        <p>name ${skins.name}</p>
-        <p>gun ${skins.gun}</p>
-        <p>animation ${skins.animated}</p>
-      <img id="${skins.name}" src="${skins.image}" class="image">
-       </div>
+        <p>name ${skin.name}</p>
+        <p>gun ${skin.gun}</p>
+        <p>animation ${skin.animated}</p>
+        <img id="${skin.name}" src="${skin.image}" class="image">
+        </div>
       `;
       document.querySelector(".apps").insertAdjacentHTML(
         "beforeend", 
@@ -42,7 +42,8 @@ document.querySelector(".btn").addEventListener("click", function (event) {
     });
   }
 
-  filter();
+filter()
+
 });
 document.querySelector(".butn").addEventListener("click", function() {
   if (document.body.classList.contains("dark")) {
