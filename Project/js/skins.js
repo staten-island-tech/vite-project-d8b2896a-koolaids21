@@ -88,28 +88,28 @@ let skins = [
         gun:"Operator",
         animated:"yes",
         defualt: "yes",
-        image: ""
+        image: "https://valorantitemstore.com/wp-content/uploads/2021/07/GN_Sol_Bundle_Featured.png"
     },
     {
         name:"Sentinels of Light",
         gun:"Vandal",
         animated:"yes",
         defualt: "yes",
-        image: ""
+        image: "https://valorantitemstore.com/wp-content/uploads/2021/07/GN_Sol_Bundle_Featured.png"
     },
     {
         name:"Sentinels of Light",
         gun:"Sherrif",
         animated:"yes",
         defualt: "yes",
-        image: ""
+        image: "https://valorantitemstore.com/wp-content/uploads/2021/07/GN_Sol_Bundle_Featured.png"
     },
     {
         name:"Sentinels of Light",
         gun:"Ares",
         animated:"yes",
         defualt: "yes",
-        image: ""
+        image: "https://valorantitemstore.com/wp-content/uploads/2021/07/GN_Sol_Bundle_Featured.png"
     },
     {
         name:"Imperium",
@@ -154,7 +154,7 @@ let skins = [
         gun:"Sherrif",
         animated:"yes",
         defualt: "yes",
-        Image:"https://staticg.sportskeeda.com/editor/2023/06/44a9e-16878812955640-1920.jpg?w=840",
+        image: "https://staticg.sportskeeda.com/editor/2023/06/44a9e-16878812955640-1920.jpg?w=840",
        
     },
     {
@@ -162,7 +162,7 @@ let skins = [
         gun:"Phantom",
         animated:"yes",
         defualt: "yes",
-        Image: "https://staticg.sportskeeda.com/editor/2023/06/44a9e-16878812955640-1920.jpg?w=840",
+        image: "https://staticg.sportskeeda.com/editor/2023/06/44a9e-16878812955640-1920.jpg?w=840",
     },
     {
         name:"Neo-Frontier",

@@ -15,7 +15,7 @@ const DOMSelectors = {
 function thing(x) {
   const otherthing = 
   `
-  <div class = "container">
+  <div class="container"></div>
   <div class="card">
     <p>${x.name}</p>
     <p>Gun:${x.gun}</p>
@@ -30,9 +30,9 @@ function thing(x) {
   );
 };
 
+skins.forEach(thing);
 
 
-thing(skins);
 
 
 
