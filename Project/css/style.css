@@ -50,6 +50,8 @@
   justify-content: space-around;
   align-content: center;
   position: relative;
+  height: fit-content;
+  width: fit-content  ;
 }
 
 #parent {
@@ -68,5 +70,10 @@
 .dark{
   --primary: var(--blue);
 
+}
+
+.image{
+  max-height: 50rem;
+  max-width: 25rem;
 }
 

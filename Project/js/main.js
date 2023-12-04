@@ -2,6 +2,7 @@ import '../css/style.css'
 import {skins} from '../js/skins.js'
 const DOMSelectors = {
   apps: document.getElementById("apps"),
+  defualt: document.getElementById('Defualt'),
   vandals: document.getElementById('Vandals'),
   Phantoms: document.getElementById('Phantoms'),
   Sherrif: document.getElementById('Sherrif'),
@@ -12,20 +13,38 @@ const DOMSelectors = {
 }
 
 function thing(x) {
-  const otherthing = `
+  const otherthing = 
+  `
+  <div class = "container">
   <div class="card">
     <p>${x.name}</p>
-    <p>gun:${x.gun}</p>
-    <p>animation:${x.animated}</p>
+    <p>Gun:${x.gun}</p>
+    <p>Animation:${x.animated}</p>
     <img id="${x.name}" src="${x.image}"class="image"
   </div>
+  </div> 
   `;
       DOMSelectors.apps.insertAdjacentHTML(
       "beforeend",
       otherthing
   );
 };
-thing(skins)
+
+
+
+thing(skins);
+
+
+
+DOMSelectors.defualt.addEventListener("click", () => {
+  const Defualt = skins.filter((x) => 
+  x.animated.includes("yes"));
+
+  DOMSelectors.apps.textContent = "";
+  const Defualtss = Defualt.map((x) => thing(x));
+  DOMSelectors.apps.insertAdjacentHTML("beforeend", Defualtss.join("")
+  );
+});
 
 
 DOMSelectors.vandals.addEventListener("click", () => {
